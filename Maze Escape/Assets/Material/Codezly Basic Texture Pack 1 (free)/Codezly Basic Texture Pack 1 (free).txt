@@ -1,0 +1,22 @@
+Thank you for downloading Codezly's Basic Texture Pack (#1).
+
+Each pack contains 1024, 512, 256, 128 and 64-pixel versions of each included texture.
+
+This pack contains:
+1. Grass
+2. Concrete
+3. Dirt
+4. Metal
+5. Sand
+6. Water
+7. Wood
+8. Forest Floor
+
+Be sure to check out our low-cost paid packs containing 5x as many textures of the same theme!
+
+Check us out at www.codezly.com!
+
+License
+=================================
+Textures licensed under CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/deed.en
