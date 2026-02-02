@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody rb;
     private Vector3 moveInput;
+    public GameObject win;
 
     private void Awake()
     {
@@ -38,9 +40,18 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Escape"))
         {
-            SceneManager.LoadScene(0);
             Debug.Log("You won");
+            StartCoroutine(winner());
 
         }
+    }
+
+    IEnumerator winner()
+    {
+        win.SetActive(true);
+
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene(0);
     }
 }

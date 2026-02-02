@@ -1935,7 +1935,6 @@ MonoBehaviour:
   playerInSightRange: 0
   playerInAttackRange: 0
   wallCheckDistance: 1
-  kill: {fileID: 1771348010}
 --- !u!195 &438109319
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4260,6 +4259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  win: {fileID: 0}
 --- !u!4 &1290844949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b189eaa01bb51a41905172cb8d0e9c4, type: 3}
